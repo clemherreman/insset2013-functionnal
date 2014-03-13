@@ -1,0 +1,4 @@
+cd /home/vagrant
+mkdir selenium
+cd selenium
+wget http://selenium-release.storage.googleapis.com/2.40/selenium-server-standalone-2.40.0.jar
