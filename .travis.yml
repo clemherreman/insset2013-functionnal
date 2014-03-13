@@ -1,9 +1,12 @@
 language: php
 php:
   - 5.5
+
 script: php bin/phpunit
+
 before_script:
   - phantomjs --version
   - phantomjs --webdriver=8643 &
+
 install: composer install --dev
 
