@@ -20,6 +20,14 @@ $ vagrant up
 
 Note: this might take some time, so you better get a coffee. Or several.
 
+### Dependencies setup
+
+Using [Composer](http://getcomposer.org/):
+
+```bash
+$ php composer.phar install --dev
+```
+
 License
 -------
 

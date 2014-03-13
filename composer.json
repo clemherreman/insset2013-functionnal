@@ -1,0 +1,17 @@
+{
+    "name": "clemherreman/insset2013-functionnal",
+    "description": "Teaching material for INSSET 2013",
+    "require": {
+        "instaclick/php-webdriver": "~1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Clement Herreman",
+            "email": "clement.herreman@gmail.com"
+        }
+    ]
+}
