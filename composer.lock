@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a7dd489133ccb42ff44cfe8c4a31ef2e",
+    "hash": "8844676c972d9a41cba7f9758417ff31",
     "packages": [
         {
             "name": "alexandresalome/php-webdriver",
