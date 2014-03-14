@@ -3,14 +3,16 @@
 use Clem\TestCase\OurTestCase;
 use WebDriver\By;
 
-class GitHubTest extends OurTestCase {
+class HelloWorldTest extends OurTestCase {
 
-    private $url = 'http://testing-vm.dev/helloworld.html';
+    private $url = 'http://testing-vm.dev/helloworld.php';
 
     public function test__we_can_read_the_page_content()
     {
         $this->browser->open($this->url);
-        $this->assertEquals('Hello INSSET!', $this->browser->element(By::css('h1'))->getText());
-        $this->assertEquals('This should fail', $this->browser->element(By::css('h1'))->getText());
+
+        $h1 = $this->browser->element(By::css('h1'));
+
+        $this->assertEquals('Hello INSSET!', $h1->getText());
     }
 }
