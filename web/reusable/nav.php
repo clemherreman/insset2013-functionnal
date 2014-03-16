@@ -6,6 +6,7 @@
                 <li><a href="/helloworld.php">Hello world!</a></li>
                 <li><a href="/more-complex.php">More complex</a></li>
                 <li><a href="/simple-form.php">Simple form</a></li>
+                <li><a href="/js-form.php">Javascript form</a></li>
             </ul>
         </div>
     </div>
